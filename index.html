@@ -263,8 +263,8 @@
 
          <!-- Article and news section end -->
         <!-- Discuss Next Project Section Start-->
-         <section class="next-project-section bg-gray-200">
-            <div class="next-project-section flex flex-col items-center text-center ">
+         <section class="next-project-section bg-gray-200 ">
+            <div class="next-project-section flex flex-col items-center text-center">
                 <div class="btn-next mt-10">
                     <button class="text-[#494949] text-base font-bold bg-[#c4dca9] px-10 py-4 rounded-full flex flex-auto items-center space-x-4 hover:bg-sky-200"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -277,23 +277,71 @@
                 <div class="next-des text-[#494949] font-medium text-base">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</div>
             </div>
 
-            <div>
-                <form class="form-part flex flex-auto " action="">
-                    <div>
-                        <input class="rounded-full bg-white text-black px-60 py-4 text-center mb-5 mr-5" type="text" placeholder="First Name*">
-                    </div>
+            <div class="mt-8 text-center">
+                <form action="">
+                    
+                        <input class="rounded-full bg-white text-black px-60 py-4 mb-5" type="text" placeholder="First Name*">
+                    
+                        <input class="rounded-full bg-white text-black px-60 py-4 mb-5" type="text" placeholder="Last Name*">
+                    
+                        <input class="rounded-full bg-white text-black px-60 py-4 mb-5" type="number" placeholder="Phone Number*">
+                    
+                        <input class="rounded-full bg-white text-black px-60 py-4 mb-5" type="email" placeholder="Email Number*">
 
-                    <div>
-                        <input class="rounded-full bg-white text-black px-60 py-4 text-center" type="text" placeholder="Last Name*">
-                    </div>
+                        <textarea class="row-auto columns-auto w-100" name="text" id="" placeholder="Write your message here" ></textarea>
+                        
+                       
                 </form>
+            </div>
+
+            <div class="btn-next mt-2 py-12">
+                <button class="text-[#494949] text-base font-bold bg-[#c4dca9] px-96 py-4 rounded-full ml-96 hover:bg-sky-200 flex flex-auto text-xl font-extrabold">
+                  <a href="">Send Mail</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-5 rounded-full bg-black text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </button>
             </div>
         </section>
          
     </main>
 
     <footer>
+        <section class="mt-10">
+            <div class="footer-section flex flex-col items-center text-center bg-black">
+                <div class="btn-next mt-10 mb-5">
+                    <button class="text-[#eeebeb] text-base font-bold bg-[#161616] px-10 py-4 rounded-full flex flex-auto items-center space-x-4 hover:bg-sky-200"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-green-400 rounded-full">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg>
+                      
+                      <a href="">Rinterio</a></button>
+                </div>
+                
+                <div class="next-des text-[#695e5e] font-medium text-base mb-6">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</div>
+                
+            <!-- Nav link -->
 
+            <div class="nav-middle-section  flex-row ">
+                <nav class="ml-24">
+                    <ul class="flex space-x-8 gap-16 items-center ">
+                        <li><a href="" class="text-[#494949] text-xl">Home</a></li>
+                        <li class="text-[#737373] text-lg"><a href="">Services</a></li>
+                        <li class="text-[#737373] text-lg"><a href="">Portfolio</a></li>
+                        <li class="text-[#737373] text-lg"><a href="">Blogs</a></li>
+                        <li class="text-[#737373] text-lg"><a href="">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+<!-- Button footer -->
+            <div class="btn-next mt-10 text-center items-center">
+                <button class="text-[#494949] text-base font-bold bg-[#ABEF5F] px-9 py-4 rounded-full  hover:bg-sky-200 flex flex-auto text-xl font-extrabold mb-16">
+                  <a href="">Book Consult</a><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ml-5 rounded-full bg-black text-white ">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                  </svg>
+                  </button>
+            </div>
+            </div>
+
+        </section>
     </footer>
     
 </body>
